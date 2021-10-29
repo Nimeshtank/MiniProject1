@@ -1,0 +1,123 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(11, 56, 87) ;
+    color:#ffe;
+  }
+  .title{
+    font-size:44px;
+    text-align:center;
+    padding:10px;
+    border:2px solid #999;
+    margin:10px 20px;
+  }
+  h2{
+    font-size:36px;
+    font-family: fantasy;
+    text-align:center;
+  }
+
+  .span-h2{
+    border: 5px solid whitesmoke;
+  }
+  
+  figure{
+    position:relative;
+  }
+  .image{
+    width:100%;
+    margin:auto;
+    border-radius:15px;
+  }
+  .img-caption{
+    text-align:center;
+    font-size:15px;
+    font-style: oblique;
+  }
+  .quotes{
+    font-size:28px;
+    font-family: system-ui;
+    color: orangered;
+    display:block;
+    padding:15px;
+    border:3px solid rgb(48, 5, 5);
+    position:absolute;
+    right:65%;
+    top:25%;
+    width:25%;
+  }
+  
+  .tribute-info{
+    display:flex;
+    padding:20px;
+    flex-flow:row wrap;
+    align-items:center;
+    overflow:hidden;
+  }
+  .year{
+    width:10%;
+    background-color: yellow;
+    color:#222;
+    padding:10px;
+    flex:1 0 auto;
+    height:80px;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+  }
+  .info{
+    width:80%;
+    flex:3 1 auto;
+    background-color:rgb(11, 56, 87));
+    padding:10px;
+    overflow:hidden;
+    height:80px;
+  }
+  .read-more{
+    text-align:center;
+    font-size:20px;
+    padding:10px;
+    margin-bottom:20px;
+    margin-top:-10px;
+  }
+  .tribute-link{
+    color:yellow;
+    text-decoration:none;
+  }
+  footer{
+    text-align:center;
+  }
+  
+  @media (max-width:768px){
+    .tribute-info{
+      text-align:center;
+    }
+    .year{
+      height:20px;
+      align-self:auto;
+    }
+    .info{
+      height:auto;
+    }
+    .img-caption{
+    font-size:1em;
+    text-align:justify;
+    font-style: oblique;
+    }
+    .quotes{
+      position:static;
+      width:100%;
+      font-size:1.2em;
+      padding:5px;
+      margin:15px 0 0 0;
+      border-color:transparent;
+      border-bottom:2px solid #eee; 
+      border-top:2px solid #eee; 
+    }
+
+    h2{
+      justify-content: center;
+    }
+    
+  }
+  
